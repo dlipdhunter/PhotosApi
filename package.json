@@ -1,0 +1,34 @@
+{
+  "name": "photos-api",
+  "version": "1.0.0",
+  "description": "an restful api that delivers photos/images on request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlipdhunter/PhotosApi.git"
+  },
+  "keywords": [
+    "Photos",
+    "nodejs",
+    "rest",
+    "api",
+    "restapi"
+  ],
+  "author": "dlipdhunter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlipdhunter/PhotosApi/issues"
+  },
+  "homepage": "https://github.com/dlipdhunter/PhotosApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
